@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centro estetico a Rovereto | Blu Sun, via Achille Leoni 10</title>
+<meta name="description" content="Blu Sun, centro estetico a Rovereto: luce LED, laser, esosomi, radiofrequenza, laminazione, semipermanente e solarium. Trattamenti, prezzi e orari. Prenoti in un minuto.">
+<!-- PROTOTIPO: noindex finché non c'è il sì di Blu Sun e il dominio vero. Al lancio si toglie
+     questa riga e si riapre robots.txt. -->
+<meta name="robots" content="noindex">
+<!-- Dominio segnaposto: blusunrovereto.it (come il loro Instagram) risultava libero il 27/09/2026
+     (NXDOMAIN). Se se ne sceglie un altro va cambiato qui, in og:url, og:image, nel JSON-LD,
+     in sitemap.xml, robots.txt, 404.html e privacy.html. -->
+<link rel="canonical" href="https://stefanopontalti07-cloud.github.io/blu-sun-center/">
+<meta name="theme-color" content="#0F1644">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230F1644'/><circle cx='32' cy='32' r='13' fill='%23E58B38'/><path d='M32 6v8M32 50v8M6 32h8M50 32h8M13.6 13.6l5.6 5.6M44.8 44.8l5.6 5.6M13.6 50.4l5.6-5.6M44.8 19.2l5.6-5.6' stroke='%23E58B38' stroke-width='3.4' stroke-linecap='round'/></svg>">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Blu Sun">
+<meta property="og:title" content="Blu Sun — centro estetico a Rovereto">
+<meta property="og:description" content="Luce LED, laser, esosomi, radiofrequenza, laminazione, unghie e solarium in via Achille Leoni 10. Trattamenti, prezzi, orari e prenotazione.">
+<meta property="og:url" content="https://stefanopontalti07-cloud.github.io/blu-sun-center/">
+<!-- og:image: si genera con `python og.py` (assets/og.jpg, fuori dal repo come tutti i jpg) -->
+<meta property="og:image" content="https://stefanopontalti07-cloud.github.io/blu-sun-center/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/img/led-oro.webp" fetchpriority="high">
+
+<style id="font-locali">
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-italic-400-latin-ext-11c0a5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-italic-400-latin-d4acfb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-italic-400-latin-ext-11c0a5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-italic-400-latin-d4acfb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-normal-500-latin-ext-4d986a.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/bodoni-moda-normal-500-latin-c4ed8c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/figtree-normal-400-latin-ext-467cc9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/figtree-normal-400-latin-3c512d.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/figtree-normal-400-latin-ext-467cc9.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/figtree-normal-400-latin-3c512d.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Blu Sun Center",
+  "alternateName": "Blu Sun",
+  "url": "https://stefanopontalti07-cloud.github.io/blu-sun-center/",
+  "image": "https://stefanopontalti07-cloud.github.io/blu-sun-center/assets/og.jpg",
+  "logo": "https://stefanopontalti07-cloud.github.io/blu-sun-center/assets/img/logo.webp",
+  "telephone": "+39 0464 438020",
+  "vatID": "IT01659660227",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Achille Leoni 10",
+    "addressLocality": "Rovereto",
+    "postalCode": "38068",
+    "addressRegion": "TN",
+    "addressCountry": "IT"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday"], "opens": "09:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "09:00", "closes": "15:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "87", "bestRating": "5" },
+  "sameAs": ["https://www.instagram.com/blusunrovereto/", "https://www.facebook.com/BlusunMichelaDebiasi/"]
+}
+</script>
+
+<style>
+:root{
+  --notte:#0F1644;       /* il blu del loro logo */
+  --notte-2:#0A0F33;
+  --oro:#E58B38;         /* l'oro del loro logo: solo su blu (5,9:1) */
+  --oro-scuro:#9E5410;   /* oro per testo su chiaro (5,4:1 su --carta) */
+  --carta:#F3F4F9;
+  --bianco:#FFFFFF;
+  --inchiostro:#141833;
+  --tenue:#4A5075;       /* su --carta 7,6:1 */
+  --su-blu:#E9EBF7;
+  --su-blu-tenue:#AEB3D6; /* su --notte 8,4:1 */
+  --linea:#DADCEA;
+  --linea-blu:rgba(233,235,247,.16);
+  --ease:cubic-bezier(0.25,1,0.5,1);
+  --ease-expo:cubic-bezier(0.16,1,0.3,1);
+  --serif:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --sans:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bianco);color:var(--inchiostro);font:17px/1.6 var(--sans);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;text-wrap:balance;margin:0}
+h2{font-size:clamp(2.1rem,5.2vw,3.6rem);line-height:1.02;letter-spacing:-.02em}
+h3{font-size:1.35rem;line-height:1.2}
+p{margin:0}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.su-blu{background:var(--notte);color:var(--su-blu)}
+.su-blu a{color:var(--su-blu)}
+:focus-visible{outline:3px solid var(--oro);outline-offset:3px}
+.salta{position:absolute;left:-999px;top:8px;background:var(--bianco);color:var(--inchiostro);padding:10px 14px;z-index:100}
+.salta:focus{left:8px}
+
+/* segnaposto da confermare con Blu Sun: si vedono apposta */
+.dc{background:#E4E5EC;color:#3D4260;border-radius:4px;padding:1px 6px;font-size:.86em;font-family:var(--sans);font-style:normal;white-space:nowrap}
+.su-blu .dc{background:#2A3160;color:#D5D8EE}
+
+/* ---------- bottoni ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:12px 26px;border-radius:999px;
+     font:600 1rem/1.1 var(--sans);text-decoration:none;cursor:pointer;border:1.5px solid transparent;
+     transition:transform .15s var(--ease),background-color .25s var(--ease),color .25s var(--ease),box-shadow .25s var(--ease)}
+.btn:active{transform:scale(.97)}
+.btn-oro{background:var(--oro);color:var(--notte-2)}
+.btn-oro:hover{background:#F09A4A;box-shadow:0 0 0 6px rgba(229,139,56,.18)}
+.su-blu .btn-oro{color:var(--notte-2)}
+.btn-bordo{border-color:currentColor;background:transparent}
+.btn-bordo:hover{background:rgba(233,235,247,.1)}
+.btn-blu{background:var(--notte);color:#fff}
+.btn-blu:hover{background:#1B2466}
+
+/* ---------- testata ---------- */
+.testata{position:relative;z-index:10;background:var(--notte);color:var(--su-blu)}
+.testata .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:18px}
+.marchio{font-family:var(--serif);font-size:1.7rem;line-height:1;text-decoration:none;letter-spacing:.02em;white-space:nowrap}
+.marchio b{font-weight:500;letter-spacing:.12em}
+.marchio i{color:var(--oro);font-weight:400}
+.menu-alto{display:flex;align-items:center;gap:26px;font-size:.98rem}
+.menu-alto a{text-decoration:none;padding:10px 0;border-bottom:1.5px solid transparent;transition:border-color .2s var(--ease)}
+.menu-alto a:hover{border-color:var(--oro)}
+.menu-alto .tel{color:var(--oro)}
+@media (max-width:860px){.menu-alto a:not(.tel){display:none}}
+
+/* ---------- apertura ---------- */
+.apertura{position:relative;overflow:hidden;padding:40px 0 80px;
+  background:radial-gradient(90% 70% at 85% 30%,#1C2A7A 0%,rgba(15,22,68,0) 60%),var(--notte)}
+.apertura .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.apertura h1{font-size:clamp(3rem,7.4vw,5.9rem);line-height:.95;letter-spacing:-.03em;color:#fff}
+.apertura h1 em{color:var(--oro);font-weight:400}
+.apertura h1 .sotto{display:block;font:600 clamp(1.05rem,1.8vw,1.25rem)/1.3 var(--sans);letter-spacing:0;color:var(--su-blu-tenue);margin-top:22px}
+.apertura .lead{font-size:1.15rem;max-width:34em;margin-top:18px;color:var(--su-blu)}
+.azioni{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.fatti{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:30px;font-size:.95rem;color:var(--su-blu-tenue)}
+.fatti a{text-decoration:none;border-bottom:1px solid var(--linea-blu)}
+.fatti a:hover{border-color:var(--oro)}
+.stelle{color:var(--oro);letter-spacing:.1em}
+.stato{display:inline-flex;align-items:center;gap:9px}
+.stato::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--su-blu-tenue)}
+.stato[data-aperto="si"]::before{background:#4ED68A;box-shadow:0 0 0 4px rgba(78,214,138,.2)}
+.stato[data-aperto="no"]::before{background:var(--oro)}
+
+/* la foto e il suo raggio di luce (il momento firma) */
+.foto-apertura{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:640/800;max-height:78vh;justify-self:end;width:100%;max-width:470px;
+  box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+.foto-apertura img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;animation:respiro 26s var(--ease) infinite alternate}
+.foto-apertura::after{content:"";position:absolute;inset:-30%;pointer-events:none;mix-blend-mode:screen;
+  background:radial-gradient(closest-side,rgba(255,196,120,.55),rgba(229,139,56,.18) 45%,rgba(229,139,56,0) 70%);
+  transform:translate(-60%,-60%);opacity:0;animation:raggio 1.6s .35s var(--ease-expo) forwards}
+.foto-apertura figcaption{position:absolute;left:0;bottom:0;right:0;padding:48px 18px 14px;font-size:.88rem;color:#fff;background:linear-gradient(transparent,rgba(10,15,51,.85))}
+@keyframes respiro{from{transform:scale(1)}to{transform:scale(1.07)}}
+@keyframes raggio{0%{opacity:0;transform:translate(-60%,-60%)}35%{opacity:1}100%{opacity:.55;transform:translate(22%,18%)}}
+@media (prefers-reduced-motion:reduce){
+  .foto-apertura img{animation:none}
+  .foto-apertura::after{animation:none;opacity:.5;transform:translate(22%,18%)}
+}
+@media (max-width:860px){
+  .apertura{padding:24px 0 56px}
+  .apertura .wrap{grid-template-columns:1fr;gap:36px}
+  .foto-apertura{justify-self:stretch;max-width:none;aspect-ratio:4/3.4;max-height:none}
+}
+
+/* ---------- trattamenti ---------- */
+.trattamenti{padding:96px 0;background:var(--carta)}
+.trattamenti .intro{display:grid;grid-template-columns:1fr 1fr;gap:24px 56px;align-items:end}
+.trattamenti .intro p{color:var(--tenue);max-width:34em}
+.schede{display:flex;flex-wrap:wrap;gap:8px;margin:40px 0 8px;padding:0;list-style:none}
+.schede button{font:600 .98rem/1 var(--sans);min-height:46px;padding:12px 20px;border-radius:999px;border:1.5px solid var(--linea);
+  background:var(--bianco);color:var(--inchiostro);cursor:pointer;transition:background-color .25s var(--ease),color .25s var(--ease),border-color .25s var(--ease)}
+.schede button:hover{border-color:var(--notte)}
+.schede button[aria-selected="true"]{background:var(--notte);color:#fff;border-color:var(--notte)}
+.gruppo{margin-top:28px}
+.gruppo h3{font-size:1.7rem;margin-bottom:6px}
+.gruppo > p{color:var(--tenue);max-width:40em;margin-bottom:10px}
+.js .gruppo[hidden]{display:none}
+.js .gruppo.entra{animation:entra .3s var(--ease)}
+@keyframes entra{from{opacity:0}to{opacity:1}}
+.voci{list-style:none;margin:0;padding:0}
+.voce{display:grid;grid-template-columns:1fr auto auto;gap:6px 28px;align-items:center;padding:22px 0;border-bottom:1px solid var(--linea)}
+.voce:first-child{border-top:1px solid var(--linea)}
+.voce h4{font:500 1.3rem/1.2 var(--serif);margin:0}
+.voce p{color:var(--tenue);font-size:.98rem;margin-top:4px;max-width:44em}
+.voce .costo{font-size:1rem;text-align:right;white-space:nowrap;color:var(--inchiostro)}
+.voce .costo small{display:block;color:var(--tenue);font-size:.85rem}
+.voce .btn{min-height:44px;padding:10px 18px;font-size:.95rem}
+.nota{font-size:.92rem;color:var(--tenue);margin-top:10px}
+@media (max-width:760px){
+  .schede{flex-wrap:nowrap;overflow-x:auto;margin-inline:-20px;padding:2px 20px 6px;scrollbar-width:none}
+  .schede::-webkit-scrollbar{display:none}
+  .schede button{flex:0 0 auto}
+  .trattamenti{padding:72px 0}
+  .trattamenti .intro{grid-template-columns:1fr}
+  .voce{grid-template-columns:1fr auto}
+  .voce .testo{grid-column:1/-1}
+  .voce .costo{text-align:left}
+}
+
+/* ---------- luce LED ---------- */
+.luce{padding:104px 0;background:var(--notte-2);color:var(--su-blu)}
+.luce .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.luce p{color:var(--su-blu-tenue);max-width:32em;margin-top:18px}
+.luce .azioni{margin-top:28px}
+.coppia{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
+.coppia figure{margin:0}
+.coppia figure:nth-child(2){margin-top:64px}
+.coppia img{border-radius:12px;width:100%;aspect-ratio:640/780;object-fit:cover}
+.coppia figcaption{font-size:.9rem;color:var(--su-blu-tenue);margin-top:10px}
+@media (max-width:860px){
+  .luce{padding:72px 0}
+  .luce .wrap{grid-template-columns:1fr;gap:40px}
+  .coppia figure:nth-child(2){margin-top:40px}
+}
+
+/* ---------- Michela e le recensioni ---------- */
+.persone{padding:104px 0}
+.persone .testa{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center;max-width:980px}
+.persone .testa img{width:170px;height:170px;border-radius:50%}
+.persone .testa p{color:var(--tenue);margin-top:14px;max-width:38em}
+.voto{display:flex;align-items:baseline;gap:14px;margin:56px 0 8px;flex-wrap:wrap}
+.voto b{font:500 3.4rem/1 var(--serif)}
+.voto .stelle{color:var(--oro-scuro);font-size:1.2rem}
+.voto a{color:var(--oro-scuro);font-weight:600}
+.citazioni{list-style:none;margin:28px 0 0;padding:0;columns:3 300px;column-gap:28px}
+.citazioni li{break-inside:avoid;margin:0 0 28px;padding-top:18px;border-top:1px solid var(--linea)}
+.citazioni blockquote{margin:0;font:400 1.22rem/1.45 var(--serif);font-style:italic}
+.citazioni cite{display:block;font:400 .9rem/1.4 var(--sans);font-style:normal;color:var(--tenue);margin-top:12px}
+@media (max-width:760px){
+  .persone{padding:72px 0}
+  .persone .testa{grid-template-columns:1fr;gap:24px}
+  .persone .testa img{width:120px;height:120px}
+}
+
+/* ---------- profumi ---------- */
+.profumi{padding:104px 0}
+.profumi .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+.profumi img{border-radius:12px;width:100%;max-width:400px;aspect-ratio:640/926;object-fit:cover}
+.profumi p{color:var(--su-blu-tenue);margin-top:18px;max-width:34em}
+.profumi ul{margin:22px 0 0;padding:0;list-style:none;border-top:1px solid var(--linea-blu)}
+.profumi li{padding:14px 0;border-bottom:1px solid var(--linea-blu)}
+.profumi li b{color:#fff;font-weight:600}
+@media (max-width:860px){.profumi{padding:72px 0}.profumi .wrap{grid-template-columns:1fr;gap:40px}.profumi img{max-width:320px}}
+
+/* ---------- prenota ---------- */
+.prenota{padding:104px 0;background:var(--carta)}
+.prenota .wrap{display:grid;grid-template-columns:1fr 420px;gap:56px;align-items:start}
+.prenota .spiega p{color:var(--tenue);margin-top:16px;max-width:32em}
+.passi{margin:26px 0 0;padding:0;list-style:none;counter-reset:p}
+.passi li{counter-increment:p;display:grid;grid-template-columns:36px 1fr;gap:12px;padding:10px 0;align-items:baseline}
+.passi li::before{content:counter(p);font:500 1.5rem/1 var(--serif);color:var(--oro-scuro)}
+.altrimenti{margin-top:22px;font-size:.98rem}
+.altrimenti a{color:var(--inchiostro);font-weight:600}
+#prenota-widget{scroll-margin-top:24px}
+#prenota #pw-panel.pw-inline{max-width:none;border-radius:14px;box-shadow:0 18px 50px -24px rgba(15,22,68,.45);font-family:var(--sans)}
+#prenota .pw-header{font-family:var(--serif);font-size:1.15rem;font-weight:500;padding:18px 20px}
+#prenota .pw-body{padding:18px 20px;gap:12px}
+#prenota .pw-body label{color:var(--tenue);font-size:.85rem}
+#prenota .pw-body input,#prenota .pw-body select,#prenota .pw-body textarea{min-height:46px;font-size:16px;border-color:#C9CCDD}
+#prenota #pw-invia{min-height:52px;border-radius:999px;font-size:1rem;background:var(--notte)}
+#prenota .pw-foot{color:var(--tenue);font-size:.9rem;padding-bottom:18px}
+#prenota .pw-foot a{color:var(--notte)}
+@keyframes lampo{0%{box-shadow:0 0 0 0 rgba(229,139,56,.6)}100%{box-shadow:0 0 0 14px rgba(229,139,56,0)}}
+#prenota select.scelto{animation:lampo .7s var(--ease)}
+@media (max-width:900px){.prenota{padding:72px 0}.prenota .wrap{grid-template-columns:1fr;gap:36px}}
+
+/* ---------- orari e dove ---------- */
+.dove{padding:104px 0}
+.dove .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.dove .stato{margin-top:16px;color:var(--su-blu)}
+.orari{width:100%;max-width:420px;border-collapse:collapse;margin-top:26px}
+.orari th,.orari td{text-align:left;padding:12px 0;border-bottom:1px solid var(--linea-blu);font-weight:400}
+.orari td{text-align:right;color:#fff}
+.orari tr.oggi th,.orari tr.oggi td{color:var(--oro);font-weight:600}
+.recapiti{margin-top:28px;display:grid;gap:14px}
+.recapiti p{display:grid}
+.recapiti b{font-weight:600;color:#fff}
+.recapiti a{display:inline-block;padding:3px 0}
+.recapiti span{color:var(--su-blu-tenue);font-size:.95rem}
+.comodita{margin:24px 0 0;padding:0;list-style:none;color:var(--su-blu-tenue);font-size:.95rem}
+.comodita li{padding:4px 0}
+.comodita li::before{content:"· ";color:var(--oro)}
+.due-click{position:relative;border-radius:14px;overflow:hidden;background:#141C52;min-height:420px;display:grid}
+.due-click iframe{border:0;width:100%;height:100%;min-height:420px}
+.due-click__dentro{display:grid;align-content:center;justify-items:start;gap:16px;padding:32px}
+.due-click__indirizzo{font:500 1.8rem/1.2 var(--serif);color:#fff}
+.due-click__nota{font-size:.88rem;color:var(--su-blu-tenue);max-width:30em}
+@media (max-width:860px){.dove{padding:72px 0}.dove .wrap{grid-template-columns:1fr;gap:40px}.due-click,.due-click iframe{min-height:340px}}
+
+/* ---------- piede ---------- */
+.piede{background:var(--notte-2);color:var(--su-blu-tenue);padding:48px 0 110px;font-size:.93rem;border-top:1px solid var(--linea-blu)}
+.piede .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px}
+.piede b{color:#fff;font-weight:600}
+.piede a{color:var(--su-blu);text-underline-offset:3px}
+@media (max-width:760px){.piede .wrap{grid-template-columns:1fr}}
+
+/* ---------- barra in basso (telefono) ---------- */
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+  background:rgba(10,15,51,.96);border-top:1px solid var(--linea-blu)}
+.barra .btn{flex:1;min-height:48px}
+.barra .btn-bordo{color:#fff}
+@media (max-width:760px){.barra{display:flex}.piede{padding-bottom:120px}}
+</style>
+</head>
+<body>
+<a class="salta" href="#trattamenti">Vai ai trattamenti</a>
+
+<header class="testata">
+  <div class="wrap">
+    <a class="marchio" href="./" aria-label="Blu Sun, torna all'inizio"><b>BLU</b> <i>Sun</i></a>
+    <nav class="menu-alto" aria-label="Sezioni">
+      <a href="#trattamenti">Trattamenti e prezzi</a>
+      <a href="#prenota">Prenota</a>
+      <a href="#dove">Orari e dove</a>
+      <a class="tel" href="tel:+390464438020">0464 438020</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="apertura su-blu" aria-labelledby="t-apertura">
+  <div class="wrap">
+    <div>
+      <h1 id="t-apertura">Il tuo momento, <em>la tua bellezza.</em>
+        <span class="sotto">Centro estetico a Rovereto, in via Achille Leoni 10</span></h1>
+      <p class="lead">Luce LED, laser, esosomi, radiofrequenza, laminazione, unghie e solarium.
+        Michela e le sue ragazze ti aspettano: guarda i trattamenti e prenota in un minuto.</p>
+      <div class="azioni">
+        <a class="btn btn-oro" href="#prenota">Prenota un trattamento</a>
+        <a class="btn btn-bordo" href="tel:+390464438020">Chiama ora</a>
+      </div>
+      <div class="fatti">
+        <span class="stato" data-stato>Lun–gio 9–20, ven 9–15</span>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Blu%20Sun%20Center&amp;query_place_id=ChIJUcqirLkOgkcR1VdZ5ZCGpKw" rel="noopener"><span class="stelle" aria-hidden="true">★★★★★</span> 4,7 su Google · 87 recensioni</a>
+      </div>
+    </div>
+    <figure class="foto-apertura">
+      <img src="assets/img/led-oro.webp" width="640" height="906" alt="Una cliente sdraiata in cabina con la maschera LED dorata sul viso" fetchpriority="high">
+      <figcaption>Viso e corpo in un'unica seduta</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="trattamenti" id="trattamenti" aria-labelledby="t-tratt">
+  <div class="wrap">
+    <div class="intro">
+      <h2 id="t-tratt">Trattamenti e prezzi</h2>
+      <p>Scegli la zona e guarda cosa facciamo. Ogni voce ha il suo bottone: lo tocchi e la
+        prenotazione parte già con quel trattamento scelto.</p>
+    </div>
+
+    <div class="schede" role="tablist" aria-label="Zone" hidden data-schede>
+      <button type="button" role="tab" aria-selected="true" aria-controls="g-viso" id="s-viso">Viso</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="g-corpo" id="s-corpo">Corpo</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="g-sguardo" id="s-sguardo">Ciglia e sopracciglia</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="g-unghie" id="s-unghie">Mani e piedi</button>
+      <button type="button" role="tab" aria-selected="false" aria-controls="g-sole" id="s-sole">Solarium</button>
+    </div>
+
+    <div class="gruppo" id="g-viso" role="tabpanel" aria-labelledby="s-viso">
+      <h3>Viso</h3>
+      <p>Tecnologia e principi attivi scelti, con la cosmetica Germaine de Capuccini.</p>
+      <ul class="voci">
+        <li class="voce"><div class="testo"><h4>Luce LED viso</h4>
+          <p>Maschera LED a luce fredda, con il colore scelto per la tua pelle. Delicato, non invasivo e piacevolissimo.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Luce LED viso">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Laser con fiale titolate</h4>
+          <p>Principi attivi selezionati, in concentrazioni precise: il laser li porta in profondità, per un'azione più mirata.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Laser con fiale titolate">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Esosomi</h4>
+          <p>Da soli o insieme al needling e al laser: ti diciamo noi quale percorso fa per la tua pelle.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Esosomi">Prenota</a></li>
+      </ul>
+    </div>
+
+    <div class="gruppo" id="g-corpo" role="tabpanel" aria-labelledby="s-corpo">
+      <h3>Corpo</h3>
+      <p>Tonicità, compattezza e qualità della pelle, con percorsi a sedute.</p>
+      <ul class="voci">
+        <li class="voce"><div class="testo"><h4>Radiofrequenza corpo</h4>
+          <p>Dedicata alla lassità cutanea: lavora su tonicità e compattezza.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Radiofrequenza corpo">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Viso e corpo in un'unica seduta</h4>
+          <p>LED sul viso e radiofrequenza sul corpo: due zone, due tecnologie, un unico appuntamento.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Viso e corpo in un'unica seduta">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Needling corpo</h4>
+          <p>Con un cocktail di esosomi e retinolo, a ciclo di sedute: lavora sulla qualità della pelle, anche sulle smagliature.</p></div>
+          <p class="costo"><span class="dc">€ [a seduta / ciclo]</span><small><span class="dc">[sedute]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Needling corpo">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Ceretta</h4>
+          <p><span class="dc">[zone e prezzi dal listino]</span></p></div>
+          <p class="costo"><span class="dc">da € [prezzo]</span></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Ceretta">Prenota</a></li>
+      </ul>
+    </div>
+
+    <div class="gruppo" id="g-sguardo" role="tabpanel" aria-labelledby="s-sguardo">
+      <h3>Ciglia e sopracciglia</h3>
+      <p>Uno sguardo più aperto, ordinato e definito.</p>
+      <ul class="voci">
+        <li class="voce"><div class="testo"><h4>Doppia laminazione</h4>
+          <p>Laminazione di ciglia e sopracciglia in un unico trattamento, per valorizzare lo sguardo e armonizzare il viso.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Doppia laminazione">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Laminazione ciglia</h4></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Laminazione ciglia">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Laminazione sopracciglia</h4></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Laminazione sopracciglia">Prenota</a></li>
+      </ul>
+    </div>
+
+    <div class="gruppo" id="g-unghie" role="tabpanel" aria-labelledby="s-unghie">
+      <h3>Mani e piedi</h3>
+      <p>Semipermanente, precisione e colori di stagione.</p>
+      <ul class="voci">
+        <li class="voce"><div class="testo"><h4>Semipermanente mani</h4></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Semipermanente mani">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Semipermanente piedi</h4>
+          <p>Un po' di tempo tutto per te, mentre ci prendiamo cura dei tuoi piedi.</p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span><small><span class="dc">[durata]</span></small></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Semipermanente piedi">Prenota</a></li>
+        <li class="voce"><div class="testo"><h4>Nail art</h4>
+          <p>Decorazioni e disegni, da aggiungere al semipermanente.</p></div>
+          <p class="costo"><span class="dc">+ € [prezzo]</span></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Nail art">Prenota</a></li>
+      </ul>
+    </div>
+
+    <div class="gruppo" id="g-sole" role="tabpanel" aria-labelledby="s-sole">
+      <h3>Solarium</h3>
+      <p>Un po' di colore anche quando fuori il sole non c'è.</p>
+      <ul class="voci">
+        <li class="voce"><div class="testo"><h4>Solarium</h4>
+          <p><span class="dc">[lettino / doccia, minuti, abbonamenti]</span></p></div>
+          <p class="costo"><span class="dc">€ [prezzo]</span></p>
+          <a class="btn btn-blu" href="#prenota" data-tratta="Solarium">Prenota</a></li>
+      </ul>
+      <p class="nota">Per legge le lampade abbronzanti non si possono usare sotto i 18 anni, in gravidanza e con alcune condizioni della pelle: prima della prima seduta te lo chiediamo.</p>
+    </div>
+  </div>
+</section>
+
+<section class="luce su-blu" aria-labelledby="t-luce">
+  <div class="wrap">
+    <div>
+      <h2 id="t-luce">Un trattamento LED per ogni esigenza</h2>
+      <p>La maschera LED Color Light cambia colore a seconda di quello che serve alla tua pelle.
+        Ti sdrai, chiudi gli occhi e per una volta non devi fare niente: lavora la luce.</p>
+      <p>Le novità di settembre: la nuova LED Expert a luce fredda per il viso e la nuova radiofrequenza
+        per la lassità cutanea del corpo. Due zone, due tecnologie, un unico appuntamento.</p>
+      <div class="azioni">
+        <a class="btn btn-oro" href="#prenota" data-tratta="Luce LED viso">Prenota la luce LED</a>
+      </div>
+    </div>
+    <div class="coppia">
+      <figure>
+        <img src="assets/img/led-verde.webp" width="640" height="845" loading="lazy" alt="Cliente sdraiata in cabina con la maschera LED accesa di verde">
+        <figcaption>Luce verde: per un incarnato più uniforme, fresco e luminoso.</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/img/led-blu.webp" width="640" height="740" loading="lazy" alt="La maschera LED Color Light Skin Mask accesa di blu">
+        <figcaption>LED Color Light Skin Mask, nella luce blu.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="persone" aria-labelledby="t-persone">
+  <div class="wrap">
+    <div class="testa">
+      <img src="assets/img/logo.webp" width="480" height="480" loading="lazy" alt="Il logo di Blu Sun, centro estetico">
+      <div>
+        <h2 id="t-persone">Michela e le sue ragazze</h2>
+        <p>Blu Sun è il centro estetico di Michela <span class="dc">[cognome da confermare]</span> in via Achille Leoni, a Rovereto.
+          Chi ci viene lo racconta così: preparate, gentili, sempre aggiornate. Le novità le trovi ogni settimana
+          su <a href="https://www.instagram.com/blusunrovereto/" rel="noopener">Instagram</a>.</p>
+      </div>
+    </div>
+
+    <div class="voto">
+      <b>4,7</b><span class="stelle" aria-hidden="true">★★★★★</span>
+      <span>su 87 recensioni Google ·
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Blu%20Sun%20Center&amp;query_place_id=ChIJUcqirLkOgkcR1VdZ5ZCGpKw" rel="noopener">leggile tutte</a></span>
+    </div>
+    <ul class="citazioni">
+      <li><blockquote>«Michela e le sue ragazze sono tutto ciò di cui ognuna di noi ha bisogno 🩷 super preparate e in continuo aggiornamento 💪🏼 Grazie per tutto / Super consigliato»</blockquote>
+        <cite>Eleonora P. · recensione Google, marzo 2026</cite></li>
+      <li><blockquote>«Ieri il mio chirurgo estetico mi ha fatto i complimenti chiedendomi dove vado a fare i trattamenti in quanto non ha ritenuto che avessi bisogno di altro.»</blockquote>
+        <cite>Annalisa C. · recensione Google, giugno 2025</cite></li>
+      <li><blockquote>«…le ragazze sono super professionali e gentili mi hanno dato tutte le informazioni di cui avevo bisogno e mi hanno anche effettuato il servizio senza appuntamento e il negozio è allestito divinamente…»</blockquote>
+        <cite>Giulia C. · recensione Google, giugno 2026</cite></li>
+      <li><blockquote>«Non ho solo fatto la manicure (stupenda!) ma ho passato un momento di relax e benessere. Grazie a tutte»</blockquote>
+        <cite>Ilaria F. · recensione Google, gennaio 2025</cite></li>
+      <li><blockquote>«Un posto dove ti senti subito a casa, coccolata dalla testa ai piedi... Nails art con colori e disegni di tendenza...»</blockquote>
+        <cite>Elisa Z. · recensione Google, maggio 2022</cite></li>
+      <li><blockquote>«Professionalità pulizia vasta scelta di servizi e personale fantastico!!!»</blockquote>
+        <cite>Stefania G. · recensione Google, novembre 2023</cite></li>
+    </ul>
+  </div>
+</section>
+
+<section class="profumi su-blu" aria-labelledby="t-profumi">
+  <div class="wrap">
+    <img src="assets/img/daphne.webp" width="640" height="926" loading="lazy" alt="Locandina Blu Sun del profumo Daphne della Farmacia SS. Annunziata 1561, con il flacone verde in mano">
+    <div>
+      <h2 id="t-profumi">Profumi e prodotti, da portare a casa</h2>
+      <p>Al banco trovi gli Extrait de Parfum della Farmacia SS. Annunziata 1561 e la cosmetica che usiamo in cabina,
+        per continuare a casa quello che hai iniziato da noi.</p>
+      <ul>
+        <li><b>Farmacia SS. Annunziata 1561</b> — Extrait de Parfum, come Daphne e AlRihla</li>
+        <li><b>Germaine de Capuccini</b> — maschere alla vitamina C, patch contorno occhi</li>
+        <li><b>Gloss all'acido ialuronico</b> — il piccolo alleato da tenere in borsa</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="prenota" id="prenota" aria-labelledby="t-prenota">
+  <div class="wrap">
+    <div class="spiega">
+      <h2 id="t-prenota">Prenota il tuo momento</h2>
+      <p>Non serve scaricare niente né registrarsi.</p>
+      <ol class="passi">
+        <li>Scegli trattamento, giorno e ora.</li>
+        <li>Si apre WhatsApp con la richiesta già scritta: la mandi tu.</li>
+        <li>Ti rispondiamo noi per confermare l'appuntamento.</li>
+      </ol>
+      <p class="altrimenti">Preferisci parlare? <a href="tel:+390464438020">0464 438020</a>, dal lunedì al giovedì 9–20, il venerdì 9–15.
+        Oppure scrivici su <a href="https://www.instagram.com/blusunrovereto/" rel="noopener">Instagram</a>.</p>
+    </div>
+    <div id="prenota-widget"></div>
+  </div>
+</section>
+<!-- Modulo prenotazioni: prodotto automazioni/prodotti/prenotazioni (widget-prenota.js).
+     WHATSAPP DA CONFERMARE: qui c'è il fisso 0464 438020, che funziona solo se ci hanno messo WhatsApp Business.
+     Orari: ultimo appuntamento 19:00 lun-gio e 14:00 il venerdì (chiudono alle 20 e alle 15). -->
+<script src="widget-prenota.js"
+        data-nome="Blu Sun"
+        data-whatsapp="390464438020"
+        data-telefono="0464 438020"
+        data-colore="#0F1644"
+        data-tipo="appuntamento"
+        data-etichetta="Appuntamento"
+        data-servizi="Luce LED viso|Laser con fiale titolate|Esosomi|Radiofrequenza corpo|Viso e corpo in un'unica seduta|Needling corpo|Ceretta|Doppia laminazione|Laminazione ciglia|Laminazione sopracciglia|Semipermanente mani|Semipermanente piedi|Nail art|Solarium|Non so ancora: consigliatemi voi"
+        data-orari="09:00-19:00"
+        data-orari-ven="09:00-14:00"
+        data-chiuso="sab,dom"
+        data-anticipo-min-ore="2"
+        data-nota-esempio="es. è la prima volta, pelle sensibile, vorrei anche la nail art"></script>
+
+<section class="dove su-blu" id="dove" aria-labelledby="t-dove">
+  <div class="wrap">
+    <div>
+      <h2 id="t-dove">Orari e dove</h2>
+      <p class="stato" data-stato>Lunedì–giovedì 9–20, venerdì 9–15</p>
+      <table class="orari">
+        <tr data-g="1"><th scope="row">Lunedì</th><td>9:00 – 20:00</td></tr>
+        <tr data-g="2"><th scope="row">Martedì</th><td>9:00 – 20:00</td></tr>
+        <tr data-g="3"><th scope="row">Mercoledì</th><td>9:00 – 20:00</td></tr>
+        <tr data-g="4"><th scope="row">Giovedì</th><td>9:00 – 20:00</td></tr>
+        <tr data-g="5"><th scope="row">Venerdì</th><td>9:00 – 15:00</td></tr>
+        <tr data-g="6"><th scope="row">Sabato</th><td>chiuso</td></tr>
+        <tr data-g="0"><th scope="row">Domenica</th><td>chiuso</td></tr>
+      </table>
+      <div class="recapiti">
+        <p><b>Via Achille Leoni 10</b><span>38068 Rovereto (TN)</span></p>
+        <p><b><a href="tel:+390464438020">0464 438020</a></b><span>per appuntamenti e informazioni</span></p>
+        <p><b><a href="https://www.instagram.com/blusunrovereto/" rel="noopener">@blusunrovereto</a></b><span>novità e trattamenti ogni settimana</span></p>
+      </div>
+      <ul class="comodita">
+        <li>Ingresso e bagno accessibili in sedia a rotelle</li>
+        <li>Parcheggio accessibile</li>
+      </ul>
+    </div>
+
+    <div class="due-click" data-src="https://maps.google.com/maps?q=Blu+Sun+Center,+Via+Achille+Leoni+10,+38068+Rovereto&amp;z=16&amp;output=embed"
+         data-titolo="Mappa: Blu Sun, via Achille Leoni 10, Rovereto">
+      <div class="due-click__dentro">
+        <p class="due-click__indirizzo">Via Achille Leoni 10<br>38068 Rovereto</p>
+        <button type="button" class="btn btn-oro due-click__bottone">Mostra la mappa</button>
+        <p class="due-click__nota">Premendo, il browser si collega a Google, che riceve il tuo indirizzo IP e può impostare cookie.
+          <a href="privacy.html">Privacy</a> ·
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Blu%20Sun%20Center&amp;query_place_id=ChIJUcqirLkOgkcR1VdZ5ZCGpKw" rel="noopener">Apri in Google Maps</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="piede">
+  <div class="wrap">
+    <p><b>Blu Sun Center</b> · <span class="dc">[ragione sociale s.a.s. dalla visura]</span><br>
+      Via Achille Leoni 10, 38068 Rovereto (TN) · <a href="tel:+390464438020">0464 438020</a><br>
+      P.IVA 01659660227 · REA <span class="dc">[TN-numero dalla visura]</span></p>
+    <p><a href="privacy.html">Privacy e cookie</a><br>
+      <a href="https://www.instagram.com/blusunrovereto/" rel="noopener">Instagram</a> ·
+      <a href="https://www.facebook.com/BlusunMichelaDebiasi/" rel="noopener">Facebook</a></p>
+    <p>Sito di Stefano Pontalti, Civezzano</p>
+  </div>
+</footer>
+
+<nav class="barra" aria-label="Prenota o chiama">
+  <a class="btn btn-oro" href="#prenota">Prenota</a>
+  <a class="btn btn-bordo" href="tel:+390464438020">Chiama</a>
+</nav>
+
+<script>
+(function(){
+  "use strict";
+  document.documentElement.classList.add("js");
+  // Orari da Google (27/09/2026): lun-gio 9-20, ven 9-15, sab e dom chiuso. Indice = getDay() (0 = domenica).
+  var ORARI = { 1:[540,1200], 2:[540,1200], 3:[540,1200], 4:[540,1200], 5:[540,900] };
+  var NOMI = ["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+
+  function hm(m){ var h = Math.floor(m/60), mm = m%60; return h + (mm ? ":" + (mm < 10 ? "0" : "") + mm : ""); }
+  function adessoRoma(){
+    var p = new Intl.DateTimeFormat("en-GB", {timeZone:"Europe/Rome", weekday:"short", hour:"2-digit", minute:"2-digit", hour12:false}).formatToParts(new Date());
+    var o = {}; p.forEach(function(x){ o[x.type] = x.value; });
+    var g = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(o.weekday);
+    return { g: g, m: (parseInt(o.hour,10) % 24) * 60 + parseInt(o.minute,10) };
+  }
+
+  /* ---------- aperto adesso? ---------- */
+  var ora = adessoRoma(), oggi = ORARI[ora.g], testo, aperto = false;
+  if (oggi && ora.m >= oggi[0] && ora.m < oggi[1]) { aperto = true; testo = "Aperto adesso · fino alle " + hm(oggi[1]); }
+  else if (oggi && ora.m < oggi[0]) { testo = "Chiuso · apre alle " + hm(oggi[0]); }
+  else {
+    for (var k = 1; k <= 7; k++) {
+      var g = (ora.g + k) % 7;
+      if (ORARI[g]) { testo = "Chiuso · riapre " + (k === 1 ? "domani" : NOMI[g]) + " alle " + hm(ORARI[g][0]); break; }
+    }
+  }
+  document.querySelectorAll("[data-stato]").forEach(function(el){ el.textContent = testo; el.setAttribute("data-aperto", aperto ? "si" : "no"); });
+  var riga = document.querySelector('.orari tr[data-g="' + ora.g + '"]');
+  if (riga) riga.classList.add("oggi");
+
+  /* ---------- schede dei trattamenti (senza JS si vedono tutti i gruppi) ---------- */
+  var barra = document.querySelector("[data-schede]");
+  var schede = barra.querySelectorAll("[role=tab]");
+  function mostra(tab, focus){
+    schede.forEach(function(t){
+      var sel = t === tab;
+      t.setAttribute("aria-selected", sel ? "true" : "false");
+      t.tabIndex = sel ? 0 : -1;
+      var pan = document.getElementById(t.getAttribute("aria-controls"));
+      pan.hidden = !sel;
+      if (sel) { pan.classList.remove("entra"); void pan.offsetWidth; pan.classList.add("entra"); }
+    });
+    if (focus) tab.focus();
+  }
+  barra.hidden = false;
+  document.querySelectorAll(".gruppo > h3").forEach(function(h){ h.hidden = true; });
+  schede.forEach(function(t, i){
+    t.addEventListener("click", function(){ mostra(t); });
+    t.addEventListener("keydown", function(e){
+      var d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+      if (d) { e.preventDefault(); mostra(schede[(i + d + schede.length) % schede.length], true); }
+    });
+  });
+  mostra(schede[0]);
+
+  /* ---------- "Prenota" su una voce: il modulo parte con quel trattamento ---------- */
+  document.addEventListener("click", function(e){
+    var a = e.target.closest("[data-tratta]");
+    if (!a) return;
+    var sel = document.getElementById("pw-servizio");
+    if (!sel) return;
+    var nome = a.getAttribute("data-tratta");
+    for (var i = 0; i < sel.options.length; i++) if (sel.options[i].text === nome) sel.selectedIndex = i;
+    sel.classList.remove("scelto"); void sel.offsetWidth; sel.classList.add("scelto");
+    setTimeout(function(){ var d = document.getElementById("pw-data"); if (d) d.focus({preventScroll:true}); }, 450);
+  });
+
+  /* ---------- mappa a due click ---------- */
+  document.querySelectorAll(".due-click").forEach(function(box){
+    box.querySelector(".due-click__bottone").addEventListener("click", function(){
+      var f = document.createElement("iframe");
+      f.src = box.dataset.src; f.title = box.dataset.titolo || "Mappa"; f.loading = "lazy";
+      f.referrerPolicy = "no-referrer-when-downgrade"; f.allowFullscreen = true;
+      box.appendChild(f); box.querySelector(".due-click__dentro").hidden = true; f.focus();
+    });
+  });
+})();
+</script>
+</body>
+</html>

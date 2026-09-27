@@ -1,0 +1,3 @@
+User-agent: *
+# PROTOTIPO: chiuso ai motori finche' non c'e' il si' del cliente. Al lancio: Allow: / e la riga Sitemap.
+Disallow: /
